@@ -21,17 +21,24 @@ export function Post(props) {
 
       <div className={styles.content}>
         <p>iubuiuduiwd </p>
-
         <p>grgrjyjthjbfsdehjbsbhjsd</p>
-
         <p>
           <a href="">bhjbhebewbhkn </a>
         </p>
-
         <p>
           <a href=""> ddddawdddddddddddda </a>
         </p>
       </div>
+      <form className={styles.commentForm}>
+        <strong> Deixe seu feedback</strong>
+
+        <textarea placeholder="Deixe um comentário" />
+
+        <button type="submit">Comentar</button>
+        <footer>
+          <button type="submit">Publicar</button>
+        </footer>
+      </form>
     </article>
   )
 }
